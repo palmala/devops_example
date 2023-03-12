@@ -1,13 +1,5 @@
 version: "2"
 services:
-    prometheus:
-        image: prom/prometheus:v2.1.0
-        volumes:
-            - ./prometheus.yml:/etc/prometheus/prometheus.yml
-        command:
-            - '--config.file=/etc/prometheus/prometheus.yml'
-        ports:
-            - '9090:9090'
     app:
         image: basic-example
         ports:
