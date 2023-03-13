@@ -1,4 +1,4 @@
-from python:3.10.10-slim
+from python:3.10-slim
 
 RUN apt-get update
 COPY ./requirements.txt /requirements.txt
