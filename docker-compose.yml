@@ -9,7 +9,7 @@ services:
         ports:
             - '9090:9090'
     app:
-        image: basic-example
+        image: example3
         ports:
             - "8000:8000"
         depends_on:
