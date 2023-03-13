@@ -1,1 +1,1 @@
-docker build -t basic-example .
+docker build -t example2 .
