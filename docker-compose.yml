@@ -1,6 +1,6 @@
 version: "2"
 services:
     app:
-        image: basic-example
+        image: example1
         ports:
             - "5000:5000"
