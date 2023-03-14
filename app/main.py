@@ -20,7 +20,7 @@ def get_data():
 @app.route('/', methods=['GET'])
 def hello_page():
     TEST_COUNTER.inc()
-    return "{'status': 'success', 'message': 'Hello World!'}"
+    return {'status': 'success', 'message': 'Hello World!'}
 
 
 if __name__ == '__main__':
