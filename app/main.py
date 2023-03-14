@@ -26,7 +26,7 @@ REQUEST_TIME = Summary(
 
 @REQUEST_TIME.time()
 def dummy_request():
-    time.sleep(random.randint(1, 4))
+    time.sleep(random.random())
 
 
 @app.get(path="/")
